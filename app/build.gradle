@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'mg.tsipelina.translator'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'mg.tsipelina.translator'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
